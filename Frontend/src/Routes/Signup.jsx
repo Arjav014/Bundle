@@ -18,7 +18,10 @@ const Signup = () => {
           <div className="modal-box">
             <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               <Link to="/">
-                <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                <button
+                  type="button"
+                  className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                >
                   🡺
                 </button>
               </Link>
@@ -72,12 +75,15 @@ const Signup = () => {
                 )}
               </div>
               <div className="flex mt-4 justify-between items-center">
-                <button className="bg-pink-500 text-white px-4 py-1 rounded-md hover:bg-pink-700 duration-300">
+                <button
+                  className="bg-pink-500 text-white px-4 py-1 rounded-md hover:bg-pink-700 duration-300"
+                >
                   Signup
                 </button>
                 <p>
                   Have account?{" "}
                   <button
+                    type="button"
                     className="underline text-blue-500 cursor-pointer"
                     onClick={() =>
                       document.getElementById("my_modal_3").showModal()
@@ -88,7 +94,7 @@ const Signup = () => {
                   <Login />
                 </p>
               </div>
-            </form> 
+            </form>
           </div>
         </div>
       </div>
