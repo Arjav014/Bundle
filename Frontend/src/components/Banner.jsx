@@ -35,7 +35,7 @@ const Banner = () => {
                 placeholder="Enter email to login"
               />
             </label>
-            <button className="btn btn-secondary mt-6">Secondary</button>
+            <button className="btn btn-secondary mt-6">Get Started</button>
           </div>
         </div>
       </div>
